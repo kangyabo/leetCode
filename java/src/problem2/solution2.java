@@ -1,23 +1,31 @@
 /**
- * author: kangyabo
- * time:17/2/8 00:01
+ * @ProjectName: 智能建筑
+ * @Copyright: 2012 HangZhou Hikvision System Technology Co., Ltd. All Right Reserved.
+ * @address: http://www.hikvision.com
+ * @date: 2017/2/9 14:19
+ * @Description: 本内容仅限于杭州海康威视数字技术系统公司内部使用，禁止转发.
  */
 package problem2;
 
 /**
- * Created by wochen on 17/2/8.
+ * <p></p>
+ * @author kangyabo 2017/2/9 14:19
+ * @version V1.0
+ * @modificationHistory=========================逻辑或功能性重大变更记录
+ * @modify by user: {修改人} 2017/2/9
+ * @modify by reason:{方法名}:{原因}
  */
 
 /**
  * You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
-
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
-
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
  */
-public class solution2 {
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
+public class Solution2 {
+
+   public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode tmp = new ListNode(0);
         ListNode result = tmp;
         int add = 0;
