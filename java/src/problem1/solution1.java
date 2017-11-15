@@ -19,7 +19,7 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
  */
-public class Solution1 {
+public class solution1 {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> numMap = new HashMap<Integer, Integer>();
