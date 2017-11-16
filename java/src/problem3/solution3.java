@@ -1,9 +1,9 @@
 /**
- * @ProjectName: ÖÇÄÜ½¨Öþ
+ * @ProjectName: ï¿½ï¿½ï¿½Ü½ï¿½ï¿½ï¿½
  * @Copyright: 2012 HangZhou Hikvision System Technology Co., Ltd. All Right Reserved.
  * @address: http://www.hikvision.com
  * @date: 2017/2/9 14:19
- * @Description: ±¾ÄÚÈÝ½öÏÞÓÚº¼ÖÝº£¿µÍþÊÓÊý×Ö¼¼ÊõÏµÍ³¹«Ë¾ÄÚ²¿Ê¹ÓÃ£¬½ûÖ¹×ª·¢.
+ * @Description: ï¿½ï¿½ï¿½ï¿½ï¿½Ý½ï¿½ï¿½ï¿½ï¿½Úºï¿½ï¿½Ýºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½Ë¾ï¿½Ú²ï¿½Ê¹ï¿½Ã£ï¿½ï¿½ï¿½Ö¹×ªï¿½ï¿½.
  */
 package problem3;
 
@@ -14,9 +14,9 @@ import java.util.Map;
  * <p></p>
  * @author kangyabo 2017/2/9 14:19
  * @version V1.0
- * @modificationHistory=========================Âß¼­»ò¹¦ÄÜÐÔÖØ´ó±ä¸ü¼ÇÂ¼
- * @modify by user: {ÐÞ¸ÄÈË} 2017/2/9
- * @modify by reason:{·½·¨Ãû}:{Ô­Òò}
+ * @modificationHistory=========================ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½ï¿½ï¿½ï¿½ï¿½Â¼
+ * @modify by user: {ï¿½Þ¸ï¿½ï¿½ï¿½} 2017/2/9
+ * @modify by reason:{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}:{Ô­ï¿½ï¿½}
  */
 
 /**
@@ -30,7 +30,7 @@ Given "bbbbb", the answer is "b", with the length of 1.
 
 Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
   */
-public class Solution3 {
+public class solution3 {
     public int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> map = new HashMap<Character, Integer>();
         int max = 0;
